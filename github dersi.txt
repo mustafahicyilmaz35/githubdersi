@@ -2,3 +2,14 @@ git init -> klasörü yerel git klasörüne çevirir.
 
 statement area -> git işlemlerine tabi tutulacak alan.
 git add . -> klasördeki bütün dosyalar statement area ya girecek.
+
+****
+commit işlemi yani git e işleme işlemi.
+git commit -m "Commit ifadesi"
+Yerel repository işlemi tamamlandı.
+****
+
+Uzak repo için
+önce mahlas(git remote add orijin ...) komutunu kopyalayıp bash e yapıştırdık.
+
+git push -u origin master
